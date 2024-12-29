@@ -10,7 +10,7 @@
   <link rel="icon" href="../images/logo.png" type="image/png">
 </head>
 
-<body>
+<body class="overlay">
   <header class="header header--relative">
     <div class="header__container">
       <div class="header__block">
@@ -101,17 +101,17 @@
       <li class="about__item">Preparing a sterilization and animal registration project.</li>
       <li class="about__item">Preparing a legal consultation project for animal protection.</li>
     </ul>
-    <form action="#" method="POST" class="contact__form">
-      <h3 class="contact__title">Submit Your Feedback</h3>
-      <label class="contact__label" for="name">Your
+    <form action="#" method="POST" class="feedback__form">
+      <h3 class="feedback__title">Share your impressions of our work</h3>
+      <label class="feedback__label" for="name">Your
         Name:</label>
-      <input class="contact__input" type="text" id="name" name="name" placeholder="Enter your name" required>
-      <label class="contact__label" for="email">Your Email:</label>
-      <input class="contact__input" type="email" id="email" name="email" placeholder="Enter your email" required <label
-        class="contact__label" for="message">Your Feedback:</label>
-      <textarea class="contact__textarea" id="message" name="message" placeholder="Write your feedback here" rows="5"
+      <input class="feedback__input" type="text" id="name" name="name" placeholder="Enter your name" required>
+      <label class="feedback__label" for="email">Your Email:</label>
+      <input class="feedback__input" type="email" id="email" name="email" placeholder="Enter your email" required <label
+        class="feedback__label" for="message">Your Feedback:</label>
+      <textarea class="feedback__textarea" id="message" name="message" placeholder="Write your feedback here" rows="5"
         required></textarea>
-      <button class="contact__button" type="submit">
+      <button class="feedback__button" type="submit">
         Submit Feedback
       </button>
     </form>
@@ -121,9 +121,16 @@
       <div class="logo__block">
         <a class="logo__link" href="index.html">
           <img class="logo__img" src="../images/logo.png" alt="Logo PawFriends.">
+          <p class="logo__title">PawFriends</p>
         </a>
-        <p class="logo__text">PawFriends is a safe haven for homeless animals, dedicated to finding them
-          loving forever homes</p>
+        <p class="logo__text">Where Every Paw Finds a Forever Home.</p> 
+      </div>
+      <div class="subscribe__block">
+        <h4 class="subscribe__title">Subscribe to Our Newsletter</h4>
+        <form class="subscribe__form">
+          <input class="subscribe__input" type="email" placeholder="Your email address" required>
+          <button class="subscribe__button" type="submit">Subscribe</button>
+        </form>
       </div>
       <div class="contact__block">
         <h4 class="contact__title">Contact Us</h4>
@@ -153,13 +160,7 @@
           </li>
         </ul>
       </div>
-      <div class="subscribe__block">
-        <h4 class="subscribe__title">Subscribe to Our Newsletter</h4>
-        <form class="subscribe__form">
-          <input class="subscribe__input" type="email" placeholder="Your email address" required>
-          <button class="subscribe__button" type="submit">Subscribe</button>
-        </form>
-      </div>
+      
 
   </footer>
 </body>
